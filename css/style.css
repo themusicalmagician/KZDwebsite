@@ -1,4 +1,71 @@
 body
 {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.png");
+    background-size: auto;
+    overflow: hidden;
 }
+
+nav
+{
+    border: 3px solid #b90029;
+    background-color: #101419;
+}
+
+.menu_image 
+{
+    width: 300px;
+    height: 100px;
+}
+
+#pfp
+{
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    border: solid 5px #b90029; 
+    margin: 0; 
+    padding: 0;
+}
+
+#pfpEdge
+{
+    background-color: black;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #101419;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: #b90029;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #b90029;
+    color: black;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #8b001e;
+    color: black;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
