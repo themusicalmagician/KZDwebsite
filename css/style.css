@@ -42,6 +42,11 @@ nav
   background-color: black;
 }
 
+#homepageBottom
+{
+  background-color: black;
+}
+
 /* The side navigation menu */
 .sidebar {
     margin: 0;
