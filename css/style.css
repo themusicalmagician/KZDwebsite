@@ -32,6 +32,16 @@ nav
     background-color: black;
 }
 
+#playlistIMG
+{
+  border: solid 5px black;
+}
+
+#player
+{
+  background-color: black;
+}
+
 /* The side navigation menu */
 .sidebar {
     margin: 0;
